@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\YovaniVazquezBaez\\RiderProjects\\ServiceSICU\\Sicu\\wwwroot\\css\\CustomSwaggerStyles.css",
+      "PackagePath": "staticwebassets\\css\\CustomSwaggerStyles.css"
+    },
+    {
+      "Id": "C:\\Users\\YovaniVazquezBaez\\RiderProjects\\ServiceSICU\\Sicu\\wwwroot\\resources\\images\\Banner_institucional-60-alta-res.png",
+      "PackagePath": "staticwebassets\\resources\\images\\Banner_institucional-60-alta-res.png"
+    },
+    {
+      "Id": "C:\\Users\\YovaniVazquezBaez\\RiderProjects\\ServiceSICU\\Sicu\\wwwroot\\resources\\images\\MUJERBN.png",
+      "PackagePath": "staticwebassets\\resources\\images\\MUJERBN.png"
+    },
+    {
+      "Id": "C:\\Users\\YovaniVazquezBaez\\RiderProjects\\ServiceSICU\\Sicu\\wwwroot\\resources\\images\\img-anio-gob.png",
+      "PackagePath": "staticwebassets\\resources\\images\\img-anio-gob.png"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Sicu.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Sicu.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.Sicu.props",
+      "PackagePath": "build\\Sicu.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.Sicu.props",
+      "PackagePath": "buildMultiTargeting\\Sicu.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.Sicu.props",
+      "PackagePath": "buildTransitive\\Sicu.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,140 @@
+img[alt="Swagger UI"] {
+    display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.swagger-section #header {
+    background-color: #3a0b1e !important;
+}
+
+.swagger-ui .topbar {
+    background-color: #3a0b1e !important;
+    border-top: 10px solid #611232 !important;
+    border-bottom: 9px solid #611232 !important;
+    border-right: 8px solid lightgray !important;
+    border-left: 8px solid lightgray !important;
+}
+
+.swagger-ui .btn.authorize {
+    background-color: transparent;
+    border-color: #10312b;
+    color: #1e4e43;
+    display: inline;
+    line-height: 1;
+}
+
+.swagger-ui .btn.authorize:hover {
+    background-color: #1e4e43;
+    border-color: #10312b;
+    color: #FFFFFF;
+}
+
+.swagger-ui .btn.authorize svg {
+    fill: #10312b;
+}
+.swagger-ui .btn.authorize:hover svg {
+    fill: #FFFFFF;
+}
+
+.swagger-ui .info a {
+    color: #BC955C;
+}
+
+.swagger-ui .opblock-tag {
+    color: #611232;
+}
+
+.swagger-ui .info .title {
+    color: #611232;
+}
+
+.logos-cabeceras {
+    background-color: #E9E9E9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.logo-uno img, .logo-muj img {
+    height: 50px;
+    max-width: 100%;
+    margin:10px;
+}
+
+@media (max-width: 1280px) {
+    .logo-uno img, .logo-muj img {
+        height: 60px;
+    }
+
+    .menu ul li a {
+        font-size: 0.8rem;
+    }
+}
+
+
+@media (max-width: 1280px) {
+    .logo-uno img, .logo-muj img {
+        height: 60px;
+    }
+
+    .menu ul li a {
+        font-size: 0.8rem;
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .logos-cabeceras {
+        height: auto;
+    }
+
+    .logo-uno img, .logo-muj img {
+        height: 40px;
+        margin: 10px 0;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .logo-uno img, .logo-muj img {
+        height: 20px;
+        justify-content: space-around;
+    }
+
+    .hamburger {
+        display: block;
+        position: absolute;
+        top: 6px;
+        right: 20px;
+    }
+
+    .logos-cabeceras {
+        width: 90%;
+    }
+}
+
+/* Tags (endpoint group headers) */
+.swagger-ui .opblock-tag {
+    background: #611232;
+    border-left: 5px solid #3a0b1e ;
+    font-weight: 500;
+    color: #BC955C;
+    transition: all 0.3s ease;
+}
+
+.swagger-ui .opblock-tag:hover {
+    background: #3a0b1e ;
+    border-left: 5px solid #BC955C ;
+}
+
+/* Endpoint blocks */
+.swagger-ui .opblock {
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    animation: fadeIn 0.5s ease-in-out;
+}

@@ -1,0 +1,6 @@
+@ServiceSICU_HostAddress = http://localhost:5263
+
+GET {{ServiceSICU_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

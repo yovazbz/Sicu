@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Sicu</name>
+    </assembly>
+    <members>
+        <member name="T:Sicu.Controllers.WeatherForecastController">
+            <summary>
+            WeatherForecastController
+            </summary>
+        </member>
+        <member name="P:Sicu.Controllers.WeatherForecastController.Logger">
+            <summary>
+            ILogger : WeatherForecastController
+            </summary>
+        </member>
+        <member name="M:Sicu.Controllers.WeatherForecastController.#ctor(Microsoft.Extensions.Logging.ILogger{Sicu.Controllers.WeatherForecastController})">
+            <summary>
+            WeatherForecastController
+            </summary>
+            <param name="logger"></param>
+        </member>
+        <member name="M:Sicu.Controllers.WeatherForecastController.Get">
+            <summary>
+             IEnumerable : GetWeatherForecast
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Sicu.Modules.Swagger.SwaggerExtensions">
+            <summary>
+            SwaggerExtensions
+            </summary>
+        </member>
+        <member name="M:Sicu.Modules.Swagger.SwaggerExtensions.AddSwagger(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            IServiceCollection : AddSwagger
+            </summary>
+            <param name="services"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Sicu.WeatherForecast">
+            <summary>
+            WeatherForecast
+            </summary>
+        </member>
+        <member name="P:Sicu.WeatherForecast.Date">
+            <summary>
+            Date
+            </summary>
+        </member>
+        <member name="P:Sicu.WeatherForecast.TemperatureC">
+            <summary>
+            TemperatureC
+            </summary>
+        </member>
+        <member name="P:Sicu.WeatherForecast.TemperatureF">
+            <summary>
+            TemperatureF
+            </summary>
+        </member>
+        <member name="P:Sicu.WeatherForecast.Summary">
+            <summary>
+            Summary WeatherForecast
+            </summary>
+        </member>
+    </members>
+</doc>
