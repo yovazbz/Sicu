@@ -110,6 +110,16 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Tools/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Tools.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Tools.dll": {}
+        }
       }
     }
   },
@@ -274,12 +284,18 @@
         "swashbuckle.aspnetcore.swaggerui.9.0.1.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "Tools/1.0.0": {
+      "type": "project",
+      "path": "../Tools/Tools.csproj",
+      "msbuildProject": "../Tools/Tools.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
       "Microsoft.AspNetCore.OpenApi >= 9.0.3",
-      "Swashbuckle.AspNetCore >= 9.0.1"
+      "Swashbuckle.AspNetCore >= 9.0.1",
+      "Tools >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -314,7 +330,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\yovani.vazquez\\Documents\\RiderProjects\\RiderProjects\\ServiceSICU\\Tools\\Tools.csproj": {
+              "projectPath": "C:\\Users\\yovani.vazquez\\Documents\\RiderProjects\\RiderProjects\\ServiceSICU\\Tools\\Tools.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

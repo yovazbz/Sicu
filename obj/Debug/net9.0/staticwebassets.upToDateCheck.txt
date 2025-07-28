@@ -1,0 +1,5 @@
+C:\Users\yovani.vazquez\Documents\RiderProjects\RiderProjects\ServiceSICU\Sicu\wwwroot\css\CustomSwaggerStyles.css
+wwwroot\css\CustomSwaggerStyles.css
+wwwroot\resources\images\Banner_institucional-60-alta-res.png
+wwwroot\resources\images\img-anio-gob.png
+wwwroot\resources\images\MUJERBN.png
