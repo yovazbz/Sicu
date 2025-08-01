@@ -60,7 +60,7 @@ app.UseStaticFiles();
 
 app.UseAuthentication();
 app.UseAuthorization();
-//app.UseCors("SitiosPermitidos");
+app.UseCors("SitiosPermitidos");
 
 // Mapea los controladores.
 app.MapControllers();

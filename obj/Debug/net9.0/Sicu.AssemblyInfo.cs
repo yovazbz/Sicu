@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Sicu")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c9c3c21d2322853c7f3453e8ad0586779f590858")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+48fd73855f24fa994a516f192dc20572c9cbf7ca")]
 [assembly: System.Reflection.AssemblyProductAttribute("Sicu")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Sicu")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
